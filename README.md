@@ -6,7 +6,7 @@ Este workshop foi desenvolvido para fornecer aos participantes uma compreensão 
 Baseado no jogo de navegador [Wordle](https://www.nytimes.com/games/wordle/index.html") criando pelo engenheiro de software Josh Wardle, o 
 [Term.ooo](Https://term.ooo) foi um projeto criativo desenvolvido durante as férias do trabalho pelo brasileiro Fernando Serboncini qie explodiu pelo mundo dos falantes de português.
 
-Descubra a palavra em 6 tentativas. A cads tentativa, as letras vão indicando o quão próximo você está!
+Descubra a palavra em 6 tentativas. A cada tentativa, as letras vão indicando o quão próximo você está!
 
 ## Estrutura básica do projeto:
 
