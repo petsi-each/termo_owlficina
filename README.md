@@ -1,6 +1,8 @@
-# 🦉 Owlficina Web: Front-End Essentials 💻
+# Owlficina Web: Front-End Essentials 🦉 💻
 
-Este workshop foi desenvolvido para fornecer aos participantes uma compreensão sólida dos fundamentos do desenvolvimento front-end. Ao final do workshop, os participantes terão um portfólio funcional criado com HTML, CSS e JavaScript.
+Este workshop foi desenvolvido para fornecer aos participantes uma compreensão sólida dos fundamentos do desenvolvimento front-end. Ao final do workshop, os participantes terão um clone personalizado do jogo Termo criado com HTML, CSS e JavaScript puro.
+
+>  Este repositório é um código de exemplo com as principais funcionalidades do jogo. Você pode usilizá-lo para consultas durante as *Owlficinas* ou fazer um *Fork* deste repositório e melhorá-lo para o entregável. 
 
 ## O que é o Termo?
 Baseado no jogo de navegador [Wordle](https://www.nytimes.com/games/wordle/index.html") criando pelo engenheiro de software Josh Wardle, o 
@@ -49,3 +51,19 @@ Mapa conceitual de *estruturas* no [HTML](./index.html).
 ``` document 'DOMContentLoaded' ``` - após carregamento do DOM, chama a função *bloquearInputsClassificados()* e adiciona eventos aos botões do teclado virtual.
 
 ``` button 'click' ``` - preenche o input em destaque na linha de tentativa com o valor do botão após o clique em qualquer botão de *LETRA* do teclado virtual. No botão *DELETE*, elimina o valor preenchido no input em destaque. No botão *ENTER*, cria um evento de 'keydown' na tecla enter do teclado do dispositivo.
+
+---
+
+## Sugestões de melhoria:
+
+Estas são algumas sugestões de melhorias que você pode ou não utilizar para personalizar a sua versão do programa:
+
+- [ ] Recriar o "Dueto" e "Quarteto".
+
+- [ ] Revelar a palavra secreta após o jogador errar todas as suas tentativas.
+
+- [ ] Acrescentar um pop-up de vitória quando o jogador acertar a palavra!
+
+- [ ] Acrescentar uma nota personalizada sobre o autor do projeto, divulgando suas redes sociais.
+
+- [ ] Validar se a palavra digitada existe no dicionário da língua portuguesa.
