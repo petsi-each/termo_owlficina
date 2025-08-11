@@ -17,6 +17,7 @@ let letraAtual = 0;    // Começa na primeira coluna (índice 0)
 
 // Função para bloquear todos os inputs já usados ou classificados
 function bloquearInputsClassificados() {
+
     const todasAsLetras = document.querySelectorAll('.letra');
     todasAsLetras.forEach(input => {
         if (
@@ -32,11 +33,9 @@ function bloquearInputsClassificados() {
         }
     });
 }
-document.addEventListener('DOMContentLoaded', bloquearInputsClassificados);
 
 // Função para verificar o status de cada letra
 function verificarStatus() {
-    // Captura os inputs da tentativa atual
     const inputs = document.querySelectorAll(`#L${tentativaAtual} .letra`);
     
     // Lista para armazenar os status das letras
@@ -122,6 +121,8 @@ document.addEventListener('keydown', (e) => {
 
 // Eventos do Teclado Virtual, criados após o DOM estar completamente carregado
 document.addEventListener('DOMContentLoaded', () => {
+
+    bloquearInputsClassificados();
 
     // Acrescentando evento de clique a cada LETRA do teclado virtual
     document.querySelectorAll('.teclado').forEach(botao =>{
